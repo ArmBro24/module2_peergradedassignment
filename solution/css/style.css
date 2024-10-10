@@ -55,6 +55,8 @@ h1 {
 
 .content {
   margin-top: 30px; /* Ensure content is pushed down to avoid overlap with title */
+  font-family: 'Merriweather';
+  font-weight: bold;
 }
 
 
