@@ -17,9 +17,8 @@ h1 {
   background-color: #d3d3d3;
   border: 2px solid #333;
   padding: 10px;
-  margin-right: 10px
-  margin: 10px; /* Add margin here */
-  width: calc(100% - 20px); /* Adjust width to account for margin */
+  margin: 30%; /* Add margin here */
+  width: 100%;
   text-align: left-center;
 }
 
