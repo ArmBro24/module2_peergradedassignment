@@ -9,10 +9,6 @@ h1 {
   font-family: 'Merriweather';
   font-weight: bold;
 }
-p {
-  font-family: 'Merriweather';
-  font-weight: bold;
-}
 .container {
   display: flex;
   gap: 20px;
@@ -73,13 +69,6 @@ p {
   .menu-item {
     width: 48%%;
   }
-  
-  .ChickenBeefSection {
-    display: flex;
-    justify-content: space-between;
-  }
-
-
 }
 
 /* Desktop view: 992px and above */
@@ -90,9 +79,5 @@ p {
   }
   .menu-item {
     width: 32%;
-  }
-  .ChickenBeefSection {
-    display: flex;
-    justify-content: space-between;
   }
 }
