@@ -15,25 +15,37 @@ h1 {
   align-items: center;
 }
 
+/* Updated menu-item styles for section titles */
 .menu-item {
-  background-color: #d3d3d3;
-  border: 2px solid #333;
-  padding: 10px;
-  margin-bottom: 10px;
+  position: relative; /* Allow absolute positioning of the title */
+  border: 1px solid black; /* Black border for sections */
+  padding: 40px 10px 10px 10px; /* Padding for section, space at the top for title */
+  margin-bottom: 20px; /* Space between sections */
   width: 100%;
-  text-align: center;
+  text-align: left; /* Align content to the left */
 }
 
+/* Section background colors */
 #chicken {
-  background-color: #f8c6c6;
+  background-color: #f8c6c6; /* Chicken section color */
 }
 
 #beef {
-  background-color: #f8a6a6;
+  background-color: #f8a6a6; /* Beef section color */
 }
 
 #sushi {
-  background-color: #f8e6a6;
+  background-color: #f8e6a6; /* Sushi section color */
+}
+
+/* Section title styles */
+.section-title {
+  position: absolute; /* Position title absolutely */
+  top: 10px; /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  background-color: #d0d0d0; /* Title background color */
+  border: 1px solid black; /* Border for the title */
+  padding: 5px; /* Padding inside the title */
 }
 
 /* Tablet view: 768px to 991px */
@@ -45,11 +57,11 @@ h1 {
   }
 
   .menu-item {
-    width: 48%;
+    width: 48%; /* Two items per row */
   }
 
   .menu-item:nth-child(3) {
-    width: 100%;
+    width: 100%; /* Make the third item full width */
   }
 }
 
@@ -61,7 +73,6 @@ h1 {
   }
 
   .menu-item {
-    width: 32%;
+    width: 32%; /* Three items per row */
   }
 }
-
