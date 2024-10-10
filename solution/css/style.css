@@ -51,6 +51,7 @@ h1 {
 #sushi {
   background-color: #fffacd;
   font-family: 'Merriweather';
+  font-weight: bold;
 }
 
 .content {
@@ -62,15 +63,12 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   .menu-item {
-    width: 48%;
-  }
-  #sushiSection {
-    width: 100%; /* Ensures that the sushi section takes the full width */
+    width: 100%;
   }
 }
 
