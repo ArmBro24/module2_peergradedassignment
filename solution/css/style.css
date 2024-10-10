@@ -71,7 +71,6 @@ h1 {
     width: 48%%;
   }
   .row {
-    flex-direction: row;
     display: flex;
     justify-content: space-between; /* Space between items */
     width: 100%; /* Full width of the container */
@@ -84,6 +83,7 @@ h1 {
 /* Desktop view: 992px and above */
 @media (min-width: 992px) {
   .container {
+    flex-direction: row;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
