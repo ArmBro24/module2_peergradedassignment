@@ -15,26 +15,32 @@ h1 {
   align-items: center;
 }
 
-/* Updated menu-item styles for section titles */
 .menu-item {
+<<<<<<< HEAD
   position: relative; 
   border: 1px solid black; /* Black border for sections */
   padding: 40px 10px 10px 10px; /* Padding for section, space at the top for title */
   margin-bottom: 20px; /* Space between sections */
+=======
+  background-color: #d3d3d3;
+  border: 2px solid #333;
+  padding: 10px;
+  margin-bottom: 10px;
+>>>>>>> parent of 4873c06 (Added section titles and spacing for style.css)
   width: 100%;
-  text-align: left; /* Align content to the left */
+  text-align: center;
 }
 
-/* Section background colors */
 #chicken {
-  background-color: #f8c6c6; /* Chicken section color */
+  background-color: #f8c6c6;
 }
 
 #beef {
-  background-color: #f8a6a6; /* Beef section color */
+  background-color: #f8a6a6;
 }
 
 #sushi {
+<<<<<<< HEAD
   background-color: #f8e6a6; /* Sushi section color */
 }
 
@@ -46,6 +52,9 @@ h1 {
   background-color: #d0d0d0; /* Title background color */
   border: 1px solid black; /* Border for the title */
   padding: 5px; /* Padding inside the title */
+=======
+  background-color: #f8e6a6;
+>>>>>>> parent of 4873c06 (Added section titles and spacing for style.css)
 }
 
 
@@ -58,11 +67,11 @@ h1 {
   }
 
   .menu-item {
-    width: 48%; /* Two items per row */
+    width: 48%;
   }
 
   .menu-item:nth-child(3) {
-    width: 100%; /* Make the third item full width */
+    width: 100%;
   }
 }
 
@@ -74,6 +83,7 @@ h1 {
   }
 
   .menu-item {
-    width: 32%; /* Three items per row */
+    width: 32%;
   }
 }
+
