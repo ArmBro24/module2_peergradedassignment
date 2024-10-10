@@ -65,11 +65,17 @@ h1 {
   .container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
   .menu-item {
     width: 48%%;
+  }
+  .row {
+    display: flex; /* Align Chicken and Beef in a row */
+    justify-content: space-between; /* Space between items */
+    width: 100%; /* Full width of the container */
+  }
+  #sushiSection {
+    width: 100%; /* Full width to match the combined width of Chicken and Beef */
   }
 }
 
