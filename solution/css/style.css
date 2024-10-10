@@ -17,9 +17,9 @@ h1 {
 
 /* Updated menu-item styles for section titles */
 .menu-item {
-  position: relative; /* Allow absolute positioning of the title */
+  position: relative; 
   border: 1px solid black; /* Black border for sections */
-  padding: 20px; /* Padding for section */
+  padding: 40px 10px 10px 10px; /* Padding for section, space at the top for title */
   margin-bottom: 20px; /* Space between sections */
   width: 100%;
   text-align: left; /* Align content to the left */
@@ -46,14 +46,8 @@ h1 {
   background-color: #d0d0d0; /* Title background color */
   border: 1px solid black; /* Border for the title */
   padding: 5px; /* Padding inside the title */
-  margin: 0; /* No margin */
-  box-sizing: border-box; /* Ensure padding and border are included in total width 
 }
 
-/* To ensure the text content does not overlap with the title */
-.content {
-  margin-top: 30px; /* Ensure content is pushed down to avoid overlap with title */
-}
 
 /* Tablet view: 768px to 991px */
 @media (min-width: 768px) and (max-width: 991px) {
