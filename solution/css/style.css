@@ -68,12 +68,7 @@ h1 {
     flex-direction: column;
   }
   .menu-item {
-    width: 48%%;
-  }
-  .row {
-    display: flex;
-    justify-content: space-between; /* Space between items */
-    width: 100%; /* Full width of the container */
+    width: 48%;
   }
   #sushiSection {
     width: 100%; /* Full width to match the combined width of Chicken and Beef */
@@ -84,6 +79,7 @@ h1 {
 @media (min-width: 992px) {
   .container {
     flex-direction: row;
+    justify-content: space-between;
   }
   .menu-item {
     width: 32%; /* Adjust width for all items in desktop view */
