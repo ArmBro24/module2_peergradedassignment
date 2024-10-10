@@ -17,7 +17,7 @@ h1 {
 
 /* Updated menu-item styles for section titles */
 .menu-item {
-  position: absolute; /* Allow absolute positioning of the title */
+  position: relative; /* Allow absolute positioning of the title */
   border: 1px solid black; /* Black border for sections */
   padding: 20px; /* Padding for section */
   margin-bottom: 20px; /* Space between sections */
@@ -47,6 +47,7 @@ h1 {
   border: 1px solid black; /* Border for the title */
   padding: 5px; /* Padding inside the title */
   margin: 0; /* No margin */
+  box-sizing: border-box; /* Ensure padding and border are included in total width 
 }
 
 /* To ensure the text content does not overlap with the title */
