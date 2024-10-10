@@ -84,8 +84,6 @@ h1 {
 @media (min-width: 992px) {
   .container {
     flex-direction: row;
-    display: flex;
-    flex-wrap: nowrap;
     justify-content: space-between;
   }
   .menu-item {
