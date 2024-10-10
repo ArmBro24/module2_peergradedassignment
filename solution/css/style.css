@@ -40,7 +40,6 @@ p {
   padding: 5px; /* Padding inside the title */
 }
 
-
 #chicken {
   background-color: #f8c6c6;
   font-family: 'Merriweather';
@@ -70,11 +69,17 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
   }
   .menu-item {
-    width: 48%;
+    width: 100%%;
   }
+  
+  .ChickenBeefSection {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
 }
 
 /* Desktop view: 992px and above */
