@@ -1,1 +1,67 @@
+/* Base styles for mobile-first design */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item {
+  background-color: #d3d3d3;
+  border: 2px solid #333;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#chicken {
+  background-color: #f8c6c6;
+}
+
+#beef {
+  background-color: #f8a6a6;
+}
+
+#sushi {
+  background-color: #f8e6a6;
+}
+
+/* Tablet view: 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .menu-item {
+    width: 48%;
+  }
+
+  .menu-item:nth-child(3) {
+    width: 100%;
+  }
+}
+
+/* Desktop view: 992px and above */
+@media (min-width: 992px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu-item {
+    width: 32%;
+  }
+}
 
