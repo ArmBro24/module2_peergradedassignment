@@ -71,7 +71,7 @@ p {
     justify-content: space-between;
   }
   .menu-item {
-    width: 100%%;
+    width: 48%%;
   }
   
   .ChickenBeefSection {
@@ -90,5 +90,9 @@ p {
   }
   .menu-item {
     width: 32%;
+  }
+  .ChickenBeefSection {
+    display: flex;
+    justify-content: space-between;
   }
 }
