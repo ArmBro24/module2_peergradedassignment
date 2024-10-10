@@ -17,7 +17,8 @@ h1 {
   background-color: #d3d3d3;
   border: 2px solid #333;
   padding: 10px;
-  margin: 10px
+  margin-right: 10px
+  margin-bottom: 10px
   width: 100%;
   text-align: left-center;
 }
@@ -42,6 +43,11 @@ h1 {
 #sushi {
   background-color: #f8e6a6;
 }
+
+.content {
+  margin-top: 30px; /* Ensure content is pushed down to avoid overlap with title */
+}
+
 
 /* Tablet view: 768px to 991px */
 @media (min-width: 768px) and (max-width: 991px) {
