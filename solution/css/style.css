@@ -7,9 +7,11 @@ body {
 h1 {
   text-align: center;
   font-family: "Monaco";
+  font-weight: bold;
 }
 .container {
   display: flex;
+  gap: 20px;
   flex-direction: column;
   align-items: center;
 }
@@ -38,10 +40,12 @@ h1 {
 #chicken {
   background-color: #f8c6c6;
   font-family: "Monaco";
+  font-weight: bold;
 }
 #beef {
   background-color: #ff4500;
   font-family: "Monaco";
+  font-weight: bold;
 }
 #sushi {
   background-color: #fffacd;
