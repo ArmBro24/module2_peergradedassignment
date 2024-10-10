@@ -17,7 +17,7 @@ h1 {
 
 /* Updated menu-item styles for section titles */
 .menu-item {
-  position: relative; /* Allow absolute positioning of the title */
+  position: absolute; /* Allow absolute positioning of the title */
   border: 1px solid black; /* Black border for sections */
   padding: 20px; /* Padding for section */
   margin-bottom: 20px; /* Space between sections */
