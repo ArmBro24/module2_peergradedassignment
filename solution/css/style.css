@@ -84,7 +84,6 @@ h1 {
 @media (min-width: 992px) {
   .container {
     flex-direction: row;
-    justify-content: space-between;
   }
   .menu-item {
     width: 32%; /* Adjust width for all items in desktop view */
