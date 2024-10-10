@@ -9,6 +9,10 @@ h1 {
   font-family: 'Merriweather';
   font-weight: bold;
 }
+p {
+  font-family: 'Merriweather';
+  font-weight: bold;
+}
 .container {
   display: flex;
   gap: 20px;
