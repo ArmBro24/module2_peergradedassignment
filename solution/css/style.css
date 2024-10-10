@@ -19,7 +19,7 @@ h1 {
 .menu-item {
   position: relative; /* Allow absolute positioning of the title */
   border: 1px solid black; /* Black border for sections */
-  padding: 40px 10px 10px 10px; /* Padding for section, space at the top for title */
+  padding: 20px; /* Padding for section */
   margin-bottom: 20px; /* Space between sections */
   width: 100%;
   text-align: left; /* Align content to the left */
@@ -41,11 +41,17 @@ h1 {
 /* Section title styles */
 .section-title {
   position: absolute; /* Position title absolutely */
-  top: 10px; /* Distance from the top */
-  right: 10px; /* Distance from the right */
+  top: 0; /* Align with the top edge of the section */
+  right: 0; /* Align with the right edge of the section */
   background-color: #d0d0d0; /* Title background color */
   border: 1px solid black; /* Border for the title */
   padding: 5px; /* Padding inside the title */
+  margin: 0; /* No margin */
+}
+
+/* To ensure the text content does not overlap with the title */
+.content {
+  margin-top: 30px; /* Ensure content is pushed down to avoid overlap with title */
 }
 
 /* Tablet view: 768px to 991px */
