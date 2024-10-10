@@ -4,59 +4,44 @@ body {
   margin: 0;
   padding: 20px;
 }
-
 h1 {
   text-align: center;
 }
-
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .menu-item {
-<<<<<<< HEAD
-  position: relative; 
-  border: 1px solid black; /* Black border for sections */
-  padding: 40px 10px 10px 10px; /* Padding for section, space at the top for title */
-  margin-bottom: 20px; /* Space between sections */
-=======
+  position: relative;
   background-color: #d3d3d3;
   border: 2px solid #333;
   padding: 10px;
   margin-bottom: 10px;
->>>>>>> parent of 4873c06 (Added section titles and spacing for style.css)
   width: 100%;
-  text-align: center;
-}
-
-#chicken {
-  background-color: #f8c6c6;
-}
-
-#beef {
-  background-color: #f8a6a6;
-}
-
-#sushi {
-<<<<<<< HEAD
-  background-color: #f8e6a6; /* Sushi section color */
+  text-align: left-center;
 }
 
 /* Section title styles */
 .section-title {
   position: absolute; /* Position title absolutely */
-  top: 0; /* Align with the top edge of the section */
-  right: 0; /* Align with the right edge of the section */
+  top: 0px; /* Distance from the top */
+  right: 0px; /* Distance from the right */
   background-color: #d0d0d0; /* Title background color */
   border: 1px solid black; /* Border for the title */
   padding: 5px; /* Padding inside the title */
-=======
-  background-color: #f8e6a6;
->>>>>>> parent of 4873c06 (Added section titles and spacing for style.css)
 }
 
+
+#chicken {
+  background-color: #f8c6c6;
+}
+#beef {
+  background-color: #f8a6a6;
+}
+#sushi {
+  background-color: #f8e6a6;
+}
 
 /* Tablet view: 768px to 991px */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -65,11 +50,9 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
   .menu-item {
     width: 48%;
   }
-
   .menu-item:nth-child(3) {
     width: 100%;
   }
@@ -81,9 +64,7 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
   }
-
   .menu-item {
     width: 32%;
   }
 }
-
