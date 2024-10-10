@@ -6,7 +6,7 @@ body {
 }
 h1 {
   text-align: center;
-  font-family: "Merriweather";
+  font-family: 'Merriweather';
   font-weight: bold;
 }
 .container {
@@ -18,7 +18,7 @@ h1 {
 .menu-item {
   position: relative;
   background-color: #d3d3d3;
-  border: 2px solid #333;
+  border: 1px solid #333;
   padding: 10px;
   margin-right: 10px;
   margin-bottom: 10px; /* Add margin here */
@@ -32,24 +32,25 @@ h1 {
   top: 0px; /* Distance from the top */
   right: 0px; /* Distance from the right */
   background-color: #d0d0d0; /* Title background color */
-  border: 2px solid black; /* Border for the title */
+  border: 1px solid black; /* Border for the title */
   padding: 5px; /* Padding inside the title */
 }
 
 
 #chicken {
   background-color: #f8c6c6;
-  font-family: "Merriweather";
+  font-family: 'Merriweather';
   font-weight: bold;
 }
 #beef {
   background-color: #ff4500;
-  font-family: "Merriweather";
+  font-family: 'Merriweather';
   font-weight: bold;
+  color: white;
 }
 #sushi {
   background-color: #fffacd;
-  font-family: "Merriweather";
+  font-family: 'Merriweather';
 }
 
 .content {
@@ -68,8 +69,8 @@ h1 {
   .menu-item {
     width: 48%;
   }
-  .menu-item:nth-child(3) {
-    width: 100%;
+  #sushiSection {
+    width: 100%; /* Ensures that the sushi section takes the full width */
   }
 }
 
