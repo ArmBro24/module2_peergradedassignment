@@ -9,33 +9,46 @@ h1 {
   font-family: 'Merriweather';
   font-weight: bold;
 }
-.container {
+.container-low {
   display: flex;
   gap: 20px;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.conteiner-sushi {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .menu-item {
   background-color: #d3d3d3;
   border: 1px solid #333;
   padding: 10px;
   margin-right: 10px;
-  margin-bottom: 10px; /* Add margin here */
-  width: 100%;
+  margin-bottom: 20px; /* Add margin here */
+  width: 90%;
   position: relative;
   text-align: left-center;
 }
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center; /* Center the sushi section */
+  }
 
 /* Section title styles */
 .section-title {
+  border: 1px solid black; /* Border for the title */
   top: 0px; /* Distance from the top */
   right: 0px; /* Distance from the right */
   background-color: #d0d0d0; /* Title background color */
-  border: 1px solid black; /* Border for the title */
   position: absolute; /* Position title absolutely */
   padding: 5px; /* Padding inside the title */
 }
-
 
 #chicken {
   background-color: #f8c6c6;
@@ -63,25 +76,46 @@ h1 {
 
 /* Tablet view: 768px to 991px */
 @media (min-width: 768px) and (max-width: 991px) {
-  .container {
+  .menu-container{
     display: flex;
     flex-direction: column;
   }
-  .menu-item {
-    width: 48%;
+  .container-low {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
+
+
+  .menu-item {
+    margin-bottom: 15px;
+  }
+
   .menu-item:last-child {
-		width: 98%;
+    width: 96%; /* Make last item span full width */
+  }
+
+  .conteiner-sushi {
+    display: flex;
+    justify-content: center;
 	}
+
 }
 
 /* Desktop view: 992px and above */
 @media (min-width: 992px) {
-  .container {
+  .container-low {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+  .menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .menu-item {
-    width: 32%; /* Adjust width for all items in desktop view */
+    width: 30vw; /* Adjust width for all items in desktop view */
   }
 }
