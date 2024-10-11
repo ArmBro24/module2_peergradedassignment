@@ -65,13 +65,15 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .menu-item {
     width: 48%;
   }
   #sushiSection {
     width: 98%; /* Full width to match the combined width of Chicken and Beef */
+    display: flex;
+    flex-direction: column;
   }
 }
 
