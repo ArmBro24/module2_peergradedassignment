@@ -70,10 +70,9 @@ h1 {
   .menu-item {
     width: 48%;
   }
-  #sushiSection {
-    width: 98%; /* Full width to match the combined width of Chicken and Beef */
-    display: flex;
-  }
+  .menu-item:last-child {
+		width: 98%;
+	}
 }
 
 /* Desktop view: 992px and above */
