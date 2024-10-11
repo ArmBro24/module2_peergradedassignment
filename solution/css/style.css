@@ -16,23 +16,23 @@ h1 {
   align-items: center;
 }
 .menu-item {
-  position: relative;
   background-color: #d3d3d3;
   border: 1px solid #333;
   padding: 10px;
   margin-right: 10px;
   margin-bottom: 10px; /* Add margin here */
   width: 100%;
+  position: relative;
   text-align: left-center;
 }
 
 /* Section title styles */
 .section-title {
-  position: absolute; /* Position title absolutely */
   top: 0px; /* Distance from the top */
   right: 0px; /* Distance from the right */
   background-color: #d0d0d0; /* Title background color */
   border: 1px solid black; /* Border for the title */
+  position: absolute; /* Position title absolutely */
   padding: 5px; /* Padding inside the title */
 }
 
